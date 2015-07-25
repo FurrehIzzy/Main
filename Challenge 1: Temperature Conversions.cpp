@@ -5,7 +5,7 @@
 //            mark as Fahrenheit or Celsius
 //            calculate other temperature
 //            print to screen
-//Maintinence log:
+//Maintenance log:
 //	07/25/2015 - Made the program
 
 #include <stdio.h>
