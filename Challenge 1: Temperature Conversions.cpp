@@ -37,12 +37,12 @@ int main() {
 			_flushall();
 		
 			//Celsius calculation//
-			if(tolower(Type[0])=='f'){
+			if(tolower(Type[0])=='f') {
 				modifiedTemperature = (originalTemperature-32)/1.8;
 				printf("\nFahrenheit: %f \n", originalTemperature);
 				printf("Celsius: %f ", modifiedTemperature);
 				stringVerification++; }
-			else if(tolower(Type[0])=='c'){
+			else if(tolower(Type[0])=='c') {
 				modifiedTemperature = originalTemperature*1.8+32;
 				printf("\nFahrenheit: %f \n", modifiedTemperature);
 				printf("Celsius: %f ", originalTemperature);
